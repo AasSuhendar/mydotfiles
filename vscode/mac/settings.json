@@ -49,11 +49,12 @@
         "editor.fontFamily",
         "terminal.integrated.fontFamily"
     ],
-    "vim.easymotion": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
+    "vim.handleKeys": {
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-a>": false,
+        "<C-s>": false
+    },
     "vim.insertModeKeyBindings": [
         {
           "before": ["j", "j"],
